@@ -1,0 +1,26 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="{% static 'main/style.css' %}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Contact Page</h1>
+
+        <p>This is the Contact Page</p>
+
+        <div class="buttons">
+            <a href="{% url 'home' %}" class="btn">Home</a>
+            <a href="{% url 'about' %}" class="btn">About</a>
+        </div>
+
+    </div>
+
+</body>
+</html>

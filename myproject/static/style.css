@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: lightpink;
+}
+
+h1 {
+    color: purple;
+}
+
+p {
+    font-size: 18px;
+}
+
+.btn {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: darkviolet;
+}
